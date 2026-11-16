@@ -28,7 +28,7 @@ Hệ thống quản lý nhà thuốc được xây dựng theo kiến trúc **SO
 | -------------------- | ------------ | ------------------------------- |
 | 🔐 Auth Service      | Spring Boot  | Authentication & Authorization  |
 | 💊 Core Service      | ASP.NET Core | Medicine & Inventory Management |
-| 🛒 Sales Service     | Next.js      | Sales & Payment                 |
+| 🛒 Sales Service     | Express.js   | Sales & Payment                 |
 | 📊 Reporting Service | FastAPI      | Statistics & Reporting          |
 
 ## 📁 Project Structure
@@ -38,7 +38,7 @@ pharmacy-management-soa/
 ├── services/
 │   ├── auth-service/        # Spring Boot
 │   ├── core-service/        # ASP.NET Core
-│   ├── sales-service/       # Next.js
+│   ├── sales-service/       # Express.js
 │   └── reporting-service/   # FastAPI
 ├── frontend/
 ├── database/
