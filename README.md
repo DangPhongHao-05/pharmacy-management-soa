@@ -67,6 +67,12 @@ cd pharmacy-management-soa
 
 Developed by the Pharmacy Management SOA Team.
 
+1. Đặng Phong Hào
+2. Nguyễn Trần Thiên Bảo
+3. Bùi Thế Sơn
+4. Phạm Hoàng An Khang
+5. Tô Hoàng Hào
+
 ---
 
 <div align="center">
