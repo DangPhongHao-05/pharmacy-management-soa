@@ -1,0 +1,148 @@
+# ==============================================================================
+# 1. BẢO MẬT & CẤU HÌNH NHẠY CẢM (SECURITY & SECRETS) - QUAN TRỌNG NHẤT
+# ==============================================================================
+# File biến môi trường
+.env
+.env.*
+!.env.example
+*.env
+
+# Key, chứng chỉ bảo mật, Google/Firebase services
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.crt
+*.cer
+google-services.json
+GoogleService-Info.plist
+firebase-adminsdk-*.json
+serviceAccountKey.json
+
+# Cấu hình chứa chuỗi kết nối Database / Secret cục bộ
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+**/secrets.json
+
+# ==============================================================================
+# 2. HỆ ĐIỀU HÀNH & IDE / EDITOR (OS & TOOLS)
+# ==============================================================================
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.iml
+*.ipr
+*.iws
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+logs/
+
+# ==============================================================================
+# 3. .NET / C# (CORE SERVICE)
+# ==============================================================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+*.trx
+*.coverage
+
+# ==============================================================================
+# 4. JAVA / SPRING BOOT (MAVEN & GRADLE)
+# ==============================================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ==============================================================================
+# 5. FLUTTER / DART
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+*.g.dart
+*.freezed.dart
+
+# ==============================================================================
+# 6. NODE.JS / EXPRESS
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.eslintcache
+dist/
+coverage/
+.nyc_output/
+
+# ==============================================================================
+# 7. PYTHON
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.installed.cfg
+*.egg
